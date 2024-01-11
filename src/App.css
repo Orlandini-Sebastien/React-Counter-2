@@ -1,0 +1,33 @@
+section,
+header {
+	margin-top: 20px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	font-size: xx-large;
+}
+
+section > div:first-child {
+
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: row;
+}
+
+section > div:last-child,
+p {
+	background-color: #5c48d3;
+	color: white;
+	border-radius: 10px;
+	padding: 10px;
+	margin: 10px;
+}
+
+.block{
+  display: block;
+}
+.none{
+  display: none;
+}

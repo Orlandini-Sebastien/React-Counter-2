@@ -9,7 +9,6 @@ header {
 }
 
 section > div:first-child {
-
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -25,9 +24,32 @@ p {
 	margin: 10px;
 }
 
-.block{
-  display: block;
+.block {
+	display: block;
 }
-.none{
-  display: none;
+.none {
+	display: none;
+}
+
+
+button {
+	background-color: #5c48d3;
+	color: white;
+	border: none;
+	border-radius: 5px;
+	line-height: 40px;
+	font-size: 30px;
+	margin-top: 20px;
+}
+
+.layout {
+	display: flex;
+	justify-content: center;
+	height: 100vh;
+}
+
+h1{
+	display: flex;
+	justify-content: space-around;
+	width: 100%;
 }

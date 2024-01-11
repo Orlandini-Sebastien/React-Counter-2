@@ -14,6 +14,7 @@ function App() {
 		for (let i = 0; i < 3; i++) {
 			array.push(
 				<Counter
+					index={i+1}
 					show={nbCounter > i ? "block" : "none"}
 					style1={counter[i] === 0 ? { display: "none" } : { display: "block" }}
 					style2={
